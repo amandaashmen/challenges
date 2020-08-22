@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            var length = 0
+        </script>
+        <script src="task.js"></script>
+    </head>
+
+    <body>
+        <h1>Welcome! </h1>
+        <h1 id = "yellow-underline">Tasks</h1>
+
+        <div class="input">
+          <input id = "task" type="text" placeholder="Input task here">
+          <button id="newTask" onclick="add(length++)">Add to List</button>
+        </div>
+        
+        <div class="tasks">
+          <ol>1.</ol>
+          <ol id="list1"></ol>
+          <button onclick="remove(1, length--)">Remove</button>
+          <ol>2.</ol>
+          <ol id="list2"></ol>
+          <button onclick="remove(2, length--)">Remove</button>
+          <ol>3.</ol>
+          <ol id="list3"></ol>
+          <button onclick="remove(3, length--)">Remove</button>
+          <ol>4.</ol>
+          <ol id="list4"></ol>
+          <button onclick="remove(4, length--)">Remove</button>
+          <ol>5.</ol>
+          <ol id="list5"></ol>
+          <button onclick="remove(5, length--)">Remove</button>
+          <ol>6.</ol>
+          <ol id="list6"></ol>
+          <button onclick="remove(6, length--)">Remove</button>
+          <ol>7.</ol>
+          <ol id="list7"></ol>
+          <button onclick="remove(7, length--)">Remove</button>
+          <ol>8.</ol>
+          <ol id="list8"></ol>
+          <button onclick="remove(8, length--)">Remove</button>
+          <ol>9.</ol>
+          <ol id="list9"></ol>
+          <button onclick="remove(9, length--)">Remove</button>
+          <ol>10.</ol>
+          <ol id="list10"></ol>
+          <button onclick="remove(10, length--)">Remove</button>
+        </div>
+
+    </body>
+
+</html>

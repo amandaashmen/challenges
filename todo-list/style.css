@@ -1,3 +1,47 @@
-h1 {
-    color: blue;
+body {
+    background-color: rgb(161, 186, 202);
+    position: relative;
+    left: 30%;
 }
+
+#yellow-underline {
+    font-size: 30px;
+    color: rgb(255, 212, 58);
+    text-decoration: underline;
+    position: relative;
+    left: 237px;
+}
+
+h1 {
+    font-size: 37px;
+    position: relative;
+    left: 200px;
+}
+
+.tasks {
+    display: grid;
+    grid-template-columns: 5% 70% 20%;
+    grid-template-rows: repeat(10, 40px);
+    grid-gap: 10px;
+    width: 40%;
+    position: relative;
+    top: 15px;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-gap: 10px;
+    width: 40%;
+    position: relative;
+    left: 40px;
+}
+
+ol {
+    font-size: 22px;
+    position: relative;
+    top: -15px;
+}
+
+
+
